@@ -4,7 +4,9 @@
     min-height: 100%;
     overflow: hidden;
 }
-
+body._lock{
+    overflow: hidden;
+}
 .main{
     flex: 1 0 auto;
 }

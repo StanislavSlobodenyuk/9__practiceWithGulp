@@ -1,12 +1,19 @@
+body{
+    font-size: 18px;
+    line-height: 122%;
+    color: $main-color;
+    font-family: $main-font;
+}
+body._lock{
+    overflow: hidden;
+}
 .wrapper{
     display: flex;
     flex-direction: column;
     min-height: 100%;
     overflow: hidden;
 }
-body._lock{
-    overflow: hidden;
-}
+
 .main{
     flex: 1 0 auto;
 }
@@ -17,11 +24,11 @@ body._lock{
 
 // container +30px padding
 [class*="__container"]{
-    max-width: 1046px;
+    max-width: 1130px;
     padding: 0px 15px;
     margin: 0 auto;
 }
-@media (max-width: 1075.98px ){
+@media (max-width: 1159.98px ){
     [class*="__container"] {
         max-width: 970px;
    }
@@ -35,4 +42,19 @@ body._lock{
     [class*="__container"] {
         max-width: none;
    }
+}
+
+._titleh2{
+    font-size: 40px;
+    line-height: 110%;
+    font-weight: 700;
+}
+._titleh3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 123%;
+}
+._flex-wrapper{
+    display: flex;
+    align-items: center;
 }

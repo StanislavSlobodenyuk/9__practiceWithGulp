@@ -1,0 +1,132 @@
+.footer {
+    padding: 34px 0px 27px 0px;
+    &__top{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-bottom: 70px;
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+.top-footer{
+    &__title{
+        margin-right: 18px;
+        display: inline;
+        line-height: 122%;
+    }
+    &__list{
+        margin-top: 12px;
+    }
+    &__list>*:not(:last-child){
+        margin-bottom: 8px;
+    }
+    &__link{
+        font-size: 18px;
+        line-height: 125%;
+        color: $main-color2;
+        font-weight: 400;
+    }
+    &__items{
+        margin-top: 20px;
+        display: flex;
+        gap: 13px;
+    }
+    &__subscribe-button{
+        position: relative;
+        top: -5px;
+        background:url("../images/header__mobile-subscribe.svg") 7px 8px no-repeat;
+        padding: 7px 14px 7px 28px;
+    }
+    &__contact-list{
+        margin: 12px 0px 20px 0px;
+    }
+    &__contact-list>*:nth-child(1){
+        margin-bottom: 10px;
+    }
+    &__contact-link{
+        position: relative;
+        padding-left: 25px;
+    }
+    &__contact-link_1::before,
+    &__contact-link_2::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    &__contact-link_1::before{
+        background: url("../images/header__darkphone.svg") 0 2px no-repeat;
+        background-size: 11px;
+
+    }
+    &__contact-link_2::before{
+        background: url("../images/header__mobile-geo.svg") 0 2px no-repeat;
+        background-size: 11px;
+    }
+    &__contact-link{
+        line-height: 125%px;
+        color: $main-color2;
+    }
+}
+.bottom-footer{
+    &__politics,
+    &__roots{
+        color: #B0B0B0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .footer__top{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 230px;
+        margin-bottom: 70px;
+    }
+}
+@media (max-width: 767.98px) {
+    .footer__top{
+        grid-template-columns: repeat(2,1fr);
+        gap: 55px 40px;
+        margin: 0px 30px 80px 30px;
+    }
+}
+@media (max-width: 575.98px) {
+    .top-footer{
+        grid-template-columns: repeat(2,1fr);
+        gap: 55px 74px;
+        margin: 0px 30px 80px 0px;
+        &__title{
+            display: block;
+            margin: 0 0 10px 0;
+        }
+    }
+}
+@media (max-width: 479.98px) {
+    .top-footer{
+        padding-bottom: 50px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+        margin: 0 auto;
+        text-align: center;
+        &__title{
+            display: block;
+            margin: 0 0 6px 0;
+        } 
+        &__contact-link{
+         margin-right: 10px;
+        }
+        &__items{
+            justify-content: center;
+        }
+    }
+    .bottom-footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+    }
+}

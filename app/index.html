@@ -8,91 +8,237 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    
     <div class="wrapper">
         <header class="header">
+            <div class="header__line-decor"></div>
             <div class="header__container">
                 <div class="header__top top-header">
                     <div class="top-header__wrapper">
                         <ul class="top-header__list">
                             <li class="top-header__item">
-                                <a class="top-header__link" href="#">О компании</a>
+                                <a class="top-header__link" href="#">Про компанію</a>
                             </li>
                             <li class="top-header__item">
-                                <a class="top-header__link" href="#">О продукции</a>
+                                <a class="top-header__link" href="#">Про товар</a>
                             </li>
                             <li class="top-header__item">
-                                <a class="top-header__link" href="#">Для партнеров</a>
+                                <a class="top-header__link" href="#">Для партнерів</a>
                             </li>
                             <li class="top-header__item">
                                 <a class="top-header__link" href="#">SENDO-family</a>
                             </li>
                         </ul>
-                       <div class="top-header__tel-block">
-                            <div class="top-header__tel"> 063 301-82-74</div>
-                            <div class="top-header__drop-down-notification">Ежедневно с 9:00 по 18:00 (UK)</div>
-                            <a href="#" class="top-header__order-call">ЗАКАЗАТЬ ЗВОНОК</a>
-                       </div>
+                        <div class="top-header__tel-block">
+                            <a class="top-header__tel" href="#"> 063 301-82-74</a>
+                            <div class="top-header__drop-down-notification">Щоденно с 9:00 по 18:00 (UK)</div>
+                            <a class="top-header__order-call" href="#">Замовити виклик</a>
+                        </div>
                     </div>
-                    <div class="top-header__location">Москва, ул. 1-й Нагатинский проезд д.2</div>
+                    <a class="top-header__location" href="#">Київ, вул. Степана Бендери 48а</a>
                 </div>
                 <div class="header__bottom bottom-header">
-                    <div class="bottom-header__logo _mobile">
-                        <img src="images/header__logo.svg" alt="Logo">
-                    </div>
-                   <div class="_flex-wrapper">
+                    <div class="_flex-wrapper">
                         <div class="menu__icon"> <!--Бургер -->
                             <span></span>
                         </div>
-                        <div class="bottom-header__logo _mb">
+                        <a class="bottom-header__logo " href="#">
                             <img src="images/header__logo.svg" alt="Logo">
-                        </div>
-                   </div>
-                    <div class="header__menu">
+                        </a>
+                    </div>
+                    <div class="header-menu_pc header-menu">
                         <nav>
-                            <ul class="bottom-header__list">
-                                <li class="bottom-header__item">
-                                    <a class="bottom-header__link" href="#">КАТАЛОГ</a>
+                            <ul class="header-menu__list">
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">КАТАЛОГ</a>
                                 </li>
-                                <li class="bottom-header__item">
-                                    <a class="bottom-header__link _blue" href="#">АКЦИИ</a>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link _blue" href="#">Акції</a>
                                 </li>
-                                <li class="bottom-header__item">
-                                    <a class="bottom-header__link" href="#">ДОСТАВКА</a>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">ДОСТАВКА</a>
                                 </li>
-                                <li class="bottom-header__item">
-                                    <a class="bottom-header__link" href="#">БЛОГ</a>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">БЛОГ</a>
                                 </li>
-                                <li class="bottom-header__item">
-                                    <a class="bottom-header__link" href="#">ГДЕ КУПИТЬ</a>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Де купити</a>
                                 </li>
-                                <li class="bottom-header__item">
-                                    <a class="bottom-header__link" href="#">ГАРАНТИИ</a>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Гаранттії</a>
                                 </li>
-                                <li class="bottom-header__item">
-                                    <a class="bottom-header__link" href="#">ПОДДЕРЖКА</a>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Підтримка</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="header-top_flex-wrapper _flex-wrapper">
-                        <div class="header-bottom__menu-for-mobile">
-                            <div class="header-bottom__num"> 063 301-82-74</div>
-                            <div class="header-bottom__text">Ежедневно с 9:00 по 18:00 (UK)</div>
+                    <div class="header-menu_mobile header-menu">
+                        <div class="header-menu__close">x</div>
+                        <nav>
+                            <ul class="header-menu__list">
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Каталог</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Акції</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Про компанію</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Про товар</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Для партнерів</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">SENDO-family</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Доставка</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Де купити</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Гаранттії</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a class="header-menu__link" href="#">Підтримка</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="header-menu__contact-list">
+                            <li class="header-menu__contact-item">
+                                <a class="header-menu__contact-link" href="#">Київ, вул.<br> Степана Бендери 48а</a>
+                            </li>
+                            <li class="header-menu__contact-item">
+                                <a class="header-menu__contact-link" href="#"><span>063 301-82-74</span><br>Ежедневно с 9:00 по 18:00 (UK)</a>
+                            </li>
+                        </ul>
+                        <div class="header-menu__items">
+                            <a class="header-menu__item" href="#">
+                                <img src="images/headre-mobile__facebook.svg" alt="">
+                            </a>
+                            <a class="header-menu__item" href="#">
+                                <img src="images/headre-mobile__vkontacte.svg" alt="">
+                            </a>
+                            <a class="header-menu__item" href="#">
+                                <img src="images/headre-mobile__telegram.svg" alt="">
+                            </a>
+                            <a class="header-menu__item" href="#">
+                                <img src="images/headre-mobile__youtube.svg" alt="">
+                            </a>
                         </div>
-                        <a class="bottom-header__shop-icon" href="#">
+                        <a class="header-menu__subscribe-button _subscribe-button" href="#">Подписаться</a>
+                    </div>
+                    <div class="bottom-header_flex-wrapper _flex-wrapper">
+                        <div class="bottom-header__menu-for-mobile">
+                            <a class="bottom-header__num"> 063 301-82-74</a>
+                            <div class="bottom-header__text">Ежедневно с 9:00 по 18:00 (UK)</div>
+                        </div>
+                        <a class="bottom-header__shop-icon" href="">
                             <img src="images/header__shop.svg" alt="Shop">
                             <div class="bottom-header__counter-goods bottom-header__counter-goods">0</div>
                         </a>
                     </div>
-                  </div>
                 </div>
             </div>
         </header>
         <main class="main"></main>
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__top top-footer">
+                    <div class="top-footer__company">
+                        <h3 class="top-footer__title _titleh3">Компания</h3>
+                        <ul class="top-footer__list">
+                            <li class="top-footer__item">
+                                <a class="top-footer__link" href="#">Блог</a>
+                            </li>
+                            <li class="top-footer__item">
+                                <a class="top-footer__link" href="#">Підтримка</a>
+                            </li>
+                            <li class="top-footer__item">
+                                <a class="top-footer__link" href="#">Для партнерів</a>
+                            </li>
+                            <li class="top-footer__item">
+                                <a class="top-footer__link" href="#">Про компанію</a>
+                            </li>
+                            <li class="top-footer__item">
+                                <a class="top-footer__link" href="#">SENDO-family</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-footer__information">
+                        <h3 class="top-footer__title _titleh3">Информація</h3>
+                        <ul class="top-footer__list">
+                            <li class="top-footer-item">
+                                <a class="top-footer__link" href="#">Акції</a>
+                            </li>
+                            <li class="top-footer-item">
+                                <a class="top-footer__link" href="#">Про товар</a>
+                            </li>
+                            <li class="top-footer-item">
+                                <a class="top-footer__link" href="#">Гаранттії</a>
+                            </li>
+                            <li class="top-footer-item">
+                                <a class="top-footer__link" href="#">Доставка та оплата</a>
+                            </li>
+                            <li class="top-footer-item">
+                                <a class="top-footer__link" href="#">Де купити</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-footer__information">
+                        <h3 class="top-footer__title _titleh3">Каталог</h3>
+                        <ul class="top-footer__list">
+                            <li class="top-footer__item">
+                                <a class="top-footer__link" href="#">Фільтри зворотного осмосу</a>
+                            </li>
+                            <li class="top-footer__item">
+                                <a class="top-footer__link" href="#">Кулери</a>
+                            </li>
+                            <li class="top-footer__item">
+                                <a class="top-footer__link" href="#">Картрыджи</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-footer__information">
+                        
+                        <h3 class="top-footer__title _titleh3">Каталог</h3>
+                        <a   class="top-footer__subscribe-button _subscribe-button" href="#">Підписатися</a>
+                        <ul class="top-footer__contact-list">
+                            <li class="top-footer__contact-item">
+                                <a class="top-footer__contact-link top-footer__contact-link_1 " href="#">063 301-82-74</a>
+                            </li>
+                            <li class="top-footer__contact-item">
+                                <a class="top-footer__contact-link top-footer__contact-link_2" href="#">Київ, вул. Степана Бендери 48а</a>
+                            </li>
+                        </ul>
+                        <div class="top-footer__items">
+                            <a class="top-footer__item" href="#">
+                                <img src="images/headre-mobile__facebook.svg" alt="">
+                            </a>
+                            <a class="top-footer__item" href="#">
+                                <img src="images/headre-mobile__vkontacte.svg" alt="">
+                            </a>
+                            <a class="top-footer__item" href="#">
+                                <img src="images/headre-mobile__telegram.svg" alt="">
+                            </a>
+                            <a class="top-footer__item" href="#">
+                                <img src="images/headre-mobile__youtube.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom bottom-footer">
+                    <a class="bottom-footer__roots" href="#">&#169 2022 Все права защищены</a>
+                    <a class="bottom-footer__politics" href="#">Договор оферты <br>Политика обработки конфиденциальности</a>
+                </div>
+            </div>
+        </footer>
     </div>
-
     <script src="js/main.min.js" ></script>
 </body>
 </html>
+

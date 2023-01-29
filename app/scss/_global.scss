@@ -14,21 +14,17 @@ body._lock{
     overflow: hidden;
 }
 
-.main{
-    flex: 1 0 auto;
+main{
+    flex: 1 1 auto;
 }
 
-.footer{
-    flex: 0 0 auto;
-}
 
 // container +30px padding
 [class*="__container"]{
-    max-width: 1130px;
-    padding: 0px 15px;
+    max-width: 1100px;
     margin: 0 auto;
 }
-@media (max-width: 1159.98px ){
+@media (max-width: 1129.98px ){
     [class*="__container"] {
         max-width: 970px;
    }
@@ -41,6 +37,7 @@ body._lock{
 @media (max-width: 767.98px){
     [class*="__container"] {
         max-width: none;
+        padding: 0px 15px;
    }
 }
 
@@ -57,4 +54,13 @@ body._lock{
 ._flex-wrapper{
     display: flex;
     align-items: center;
+}
+._subscribe-button{
+    font-size: 12px;
+    line-height: 122%;
+    color: #C4C4C4;
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    padding: 10px 14px 10px 38px;
+    background:url("../images/header__mobile-subscribe.svg") 12px 12px no-repeat;
 }
